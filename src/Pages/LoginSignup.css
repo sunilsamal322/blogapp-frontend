@@ -1,0 +1,9 @@
+.form{
+    padding: 50px 30px;
+}
+a{
+    text-decoration: none;
+}
+.error{
+    color: red;
+}

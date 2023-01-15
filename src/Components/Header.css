@@ -1,0 +1,20 @@
+.navbar-brand{
+    color: navy;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+}
+.active{
+    color: #3498db !important;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: black;
+    transition: .3s ease;
+}
+.nav-link:hover{
+    color: #3498db;
+}
