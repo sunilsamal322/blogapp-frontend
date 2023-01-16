@@ -54,3 +54,7 @@ export const updatePost = (postId,postData) =>{
         }
     }).then((response)=>response.data)
 }
+
+export const searchPost = (title) =>{
+    return myAxios.get(`/posts/search?title=${title}`).then(response=>response.data);
+}

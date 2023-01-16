@@ -49,16 +49,10 @@ const Header = () =>{
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mb-lg-0 me-auto">
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/">New Feeds</NavLink>
+                    <NavLink className="nav-link" to="/">Home</NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/service">Services</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink className="nav-link" to="/about">About Us</NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
+                    <NavLink className="nav-link" to="/search">Search</NavLink>
                   </li>
                   {
                     login?
@@ -109,10 +103,6 @@ const Header = () =>{
                     </>
                   }
                   </ul>
-                {/* <form className="d-flex" role="search">
-                  <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                  <button className="btn btn-outline-success" type="submit">Search</button>
-                </form> */}
               </div>
             </div>
           </nav>
